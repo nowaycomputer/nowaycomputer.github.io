@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-label="A quiet night sky over soft hills">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#17112f"/>
+      <stop offset="0.48" stop-color="#10283a"/>
+      <stop offset="1" stop-color="#09111f"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="64%" cy="22%" r="24%">
+      <stop offset="0" stop-color="#cdbfff" stop-opacity="0.42"/>
+      <stop offset="0.35" stop-color="#8ce8d6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillA" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#16323c"/>
+      <stop offset="1" stop-color="#0c1828"/>
+    </linearGradient>
+    <linearGradient id="hillB" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#261942"/>
+      <stop offset="1" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1100" fill="url(#sky)"/>
+  <rect width="1800" height="1100" fill="url(#moonGlow)"/>
+  <circle cx="1160" cy="210" r="86" fill="#e7e3ff" opacity="0.95"/>
+  <circle cx="1124" cy="184" r="92" fill="#17112f" opacity="0.94"/>
+  <g fill="#f4efff" opacity="0.8">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="278" cy="284" r="2"/>
+    <circle cx="430" cy="124" r="2.5"/>
+    <circle cx="618" cy="234" r="2"/>
+    <circle cx="808" cy="132" r="3"/>
+    <circle cx="1000" cy="320" r="2"/>
+    <circle cx="1304" cy="128" r="2.5"/>
+    <circle cx="1510" cy="268" r="2"/>
+    <circle cx="1630" cy="156" r="3"/>
+  </g>
+  <path d="M0 760C210 624 390 610 570 718C740 820 914 792 1080 672C1256 545 1490 534 1800 724V1100H0Z" fill="url(#hillA)" opacity="0.86"/>
+  <path d="M0 850C260 706 520 714 778 844C994 952 1218 938 1450 800C1584 720 1700 716 1800 752V1100H0Z" fill="url(#hillB)"/>
+  <path d="M0 980C340 904 626 926 860 998C1118 1078 1434 1030 1800 918V1100H0Z" fill="#070b15"/>
+  <ellipse cx="1030" cy="610" rx="520" ry="54" fill="#8ce8d6" opacity="0.08" filter="url(#soft)"/>
+</svg>
